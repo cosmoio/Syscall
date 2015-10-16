@@ -12,8 +12,11 @@ Quoting:
 The code is pretty much self-explanatory (thanks in large parts to stackoverflow..).
 
  nasm -f elf helloworld.asm
+ nasm -f elf read.asm
 
 % Make an elf binary (default: helloworld) via nasm
+
+
 
  gcc -m64 -nostdlib -o hello-syscall syscall.s
 
