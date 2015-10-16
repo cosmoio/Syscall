@@ -11,11 +11,11 @@ Quoting:
 
 The code is pretty much self-explanatory (thanks in large parts to stackoverflow..).
 
-# nasm -f elf helloworld.asm
+ nasm -f elf helloworld.asm
 
 % Make an elf binary (default: helloworld) via nasm
 
-# gcc -m64 -nostdlib -o hello-syscall syscall.s
+ gcc -m64 -nostdlib -o hello-syscall syscall.s
 
 % -m64 force 64 bit compilation 
 % -nostdlib obvious
